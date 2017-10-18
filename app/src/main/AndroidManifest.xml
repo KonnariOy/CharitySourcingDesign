@@ -9,13 +9,36 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".FirstPage"
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+        <activity
+            android:name=".InstructionPage"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".JoinTeam"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".TaskPage"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".TeamPage"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".CreateTeam"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".FinalPage"
+            android:screenOrientation="landscape"></activity>
     </application>
+
 
 </manifest>

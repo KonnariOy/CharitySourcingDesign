@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">CharitySourcing</string>
+    <string-array name="team_data">
+        <item>Team 1: 20</item>
+        <item>Team 2: 20</item>
+        <item>Team 3: 20</item>
+        <item>Team 4: 20</item>
+        <item>Team 5: 20</item>
+        <item>Team 6: 20</item>
+        <item>Team 7: 20</item>
+        <item>Team 8: 20</item>
+        <item>Team 9: 20</item>
+        <item>Team 10: 20</item>
+
+    </string-array>
+    <string-array name="question_data">
+        <item>Question 1</item>
+        <item>Question 2</item>
+        <item>Question 3</item>
+        <item>Question 4</item>
+        <item>Question 5</item>
+        <item>Question 6</item>
+        <item>Question 7</item>
+        <item>Question 8</item>
+        <item>Question 9</item>
+        <item>Question 10</item>
+
+    </string-array>
 </resources>

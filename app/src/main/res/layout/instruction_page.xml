@@ -15,10 +15,10 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:text="Donate 5 minutes to charity!"
-        android:textColor="@color/colorPrimaryDark"
-        android:textSize="42sp"
-        android:textStyle="bold" />
+        android:text="Dummy instruction page!!"
+        android:textColor="@color/green"
+        android:textSize="32sp"
+        android:textStyle="normal" />
 
     <Button
         android:id="@+id/button3"
@@ -27,5 +27,6 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:text=" Start" />
+        android:onClick="goNext"
+        android:text="Next" />
 </RelativeLayout>

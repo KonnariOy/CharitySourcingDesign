@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CFD8DC"
+    android:background="@color/background"
     android:padding="20dp"
-    tools:context="acp2.ubicomp.charitysourcing.MainActivity">
+    tools:context="acp2.ubicomp.charitysourcing.FirstPage">
 
     <TextView
         android:id="@+id/TeamName"
@@ -34,12 +34,14 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_marginRight="20dp"
-            android:layout_weight="1"></ListView>
+            android:layout_weight="1"
+            android:entries="@array/team_data"></ListView>
 
         <ListView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"></ListView>
+            android:layout_weight="1"
+            android:entries="@array/question_data"></ListView>
     </LinearLayout>
 
     <Button
@@ -48,5 +50,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
+        android:onClick="goNext"
         android:text="GO" />
 </RelativeLayout>

@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CFD8DC"
+    android:background="@color/background"
     android:padding="20dp"
-    tools:context="acp2.ubicomp.charitysourcing.MainActivity">
+    tools:context="acp2.ubicomp.charitysourcing.FirstPage">
 
     <LinearLayout
         android:layout_width="300dp"
@@ -17,12 +17,7 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Email" />
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Team Name" />
+            android:hint="New Team Name" />
 
         <EditText
             android:layout_width="match_parent"
@@ -32,12 +27,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:text="JOIN TEAM" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:onClick="goNext"
             android:text="Create Team" />
     </LinearLayout>
 

@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CFD8DC"
+    android:background="@color/background"
     android:padding="20dp"
-    tools:context="acp2.ubicomp.charitysourcing.MainActivity">
+    tools:context="acp2.ubicomp.charitysourcing.FirstPage">
 
 
     <TextView
