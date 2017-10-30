@@ -1,29 +1,26 @@
 <resources>
     <string name="app_name">CharitySourcing</string>
     <string-array name="team_data">
-        <item>Team 1: 20</item>
-        <item>Team 2: 20</item>
-        <item>Team 3: 20</item>
-        <item>Team 4: 20</item>
-        <item>Team 5: 20</item>
-        <item>Team 6: 20</item>
-        <item>Team 7: 20</item>
-        <item>Team 8: 20</item>
-        <item>Team 9: 20</item>
-        <item>Team 10: 20</item>
+        <item>Team Blue Panda: 22</item>
+        <item>Team Sami: 05</item>
+        <item>Team Cobra: 20</item>
+        <item>Team Tellus: 2</item>
+
 
     </string-array>
     <string-array name="question_data">
-        <item>Question 1</item>
-        <item>Question 2</item>
-        <item>Question 3</item>
-        <item>Question 4</item>
-        <item>Question 5</item>
-        <item>Question 6</item>
-        <item>Question 7</item>
-        <item>Question 8</item>
-        <item>Question 9</item>
-        <item>Question 10</item>
-
+        <item>Find the mysterious object.</item>
+        <item>Count the people in the picture</item>
+        <item>Solve the captcha</item>
+        <item>Find the mysterious object.</item>
+        <item>Count the people in the picture</item>
+        <item>Solve the captcha</item>
     </string-array>
+
+    <string name="dummy_instruction">Your team will be doing some simple tasks that are needed for research purposes (labeling images, identifying object in images, ....).
+In exchange for your time, we will donate an amount of money to charity on your behalf. The team with the highest points will get some prizes.
+
+First Prize: 4 Movie Tickets.
+Second Prize: 4 Meal Vouchers.
+Third Price: 4 Coffee Vouchers</string>
 </resources>

@@ -8,74 +8,63 @@
     android:padding="20dp"
     tools:context="acp2.ubicomp.charitysourcing.FirstPage">
 
-    <TextView
-        android:id="@+id/TeamName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Team : Cobra" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="Total Point: 40" />
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button_go"
-        android:layout_below="@+id/TeamName"
-        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/button3"
         android:orientation="horizontal">
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical">
+
+            android:gravity="center">
 
             <TextView
+                android:id="@+id/header"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Top Teams"
-                android:textColor="@color/colorPrimary" />
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:text="@string/dummy_instruction"
+                android:textColor="@color/green"
+                android:textSize="32sp"
+                android:textStyle="normal" />
 
-            <ListView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginRight="20dp"
-                android:entries="@array/team_data"></ListView>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="15dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Task list"
+                android:text="Enter your team name"
                 android:textColor="@color/colorPrimary" />
 
-            <ListView
+            <EditText
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:entries="@array/question_data"></ListView>
+                android:layout_height="wrap_content"
+                android:hint="Team Name" />
+
+
         </LinearLayout>
-
-
     </LinearLayout>
 
+
     <Button
-        android:id="@+id/button_go"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:onClick="goNext"
-        android:text="GO" />
+        android:text="Next" />
 </RelativeLayout>

@@ -92,7 +92,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:onClick="goNext"
-        android:text="Pick a Charity and Start" />
+        android:text="Start" />
 
     <LinearLayout
         android:layout_width="wrap_content"
