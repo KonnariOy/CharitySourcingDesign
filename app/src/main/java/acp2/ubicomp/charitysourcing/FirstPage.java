@@ -14,7 +14,7 @@ public class FirstPage extends AppCompatActivity {
     }
 
     public void goNext(View view) {
-        Intent intent = new Intent(FirstPage.this, InstructionPage.class);
+        Intent intent = new Intent(FirstPage.this, JoinTeam.class);
         startActivity(intent);
         finish();
     }

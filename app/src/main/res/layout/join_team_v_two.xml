@@ -18,7 +18,6 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-
             android:gravity="center">
 
             <TextView
@@ -27,9 +26,10 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:layout_centerVertical="true"
+                android:scrollbars="vertical"
                 android:text="@string/dummy_instruction"
                 android:textColor="@color/green"
-                android:textSize="32sp"
+                android:textSize="18sp"
                 android:textStyle="normal" />
 
         </LinearLayout>
@@ -49,6 +49,7 @@
                 android:textColor="@color/colorPrimary" />
 
             <EditText
+                android:id="@+id/team_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Team Name" />
