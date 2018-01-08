@@ -12,7 +12,7 @@
         android:id="@+id/TeamName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Team : BluePanda" />
+        android:text="Team : " />
 
     <TextView
         android:layout_width="wrap_content"
@@ -20,12 +20,11 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-        android:text="Total Point: 40" />
+        android:text="Total points: 40" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button_go"
         android:layout_below="@+id/TeamName"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
@@ -39,10 +38,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Top Teams"
+                android:text="Top teams"
                 android:textColor="@color/colorPrimary" />
 
             <ListView
+                android:id="@+id/TeamList"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginRight="20dp"
@@ -62,6 +62,7 @@
                 android:textColor="@color/colorPrimary" />
 
             <ListView
+                android:id="@+id/TaskList"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:entries="@array/question_data"></ListView>
@@ -70,12 +71,4 @@
 
     </LinearLayout>
 
-    <Button
-        android:id="@+id/button_go"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:onClick="goNext"
-        android:text="GO" />
 </RelativeLayout>
