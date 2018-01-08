@@ -8,15 +8,6 @@
     android:padding="10dp"
     tools:context="acp2.ubicomp.charitysourcing.FirstPage">
 
-
-    <ImageView
-        android:id="@+id/button_go"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
-        android:layout_centerInParent="true"
-        android:src="@drawable/demo_task" />
-
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -24,7 +15,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:text="Task Points: 5" />
+        android:text="Task points: 5" />
 
     <TextView
         android:id="@+id/textView2"
@@ -33,10 +24,17 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/textView"
-        android:text="Task Completion: 20%" />
+        android:text="Task completion: 20%" />
 
+    <WebView
+        android:layout_below="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webTaskView"
+        android:layout_margin="16dip" />
 
     <ImageButton
+        android:id="@+id/imageShowDialog"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
