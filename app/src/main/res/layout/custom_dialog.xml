@@ -28,7 +28,7 @@
         android:layout_marginTop="10dp"
         android:background="@android:color/white"
         android:clickable="true"
-        android:text="Send to email"
+        android:text="To email"
         android:textColor="#5DBCD2"
         android:textStyle="bold" />
 
@@ -48,6 +48,7 @@
             android:text="Close"
             android:textColor="#5DBCD2"
             android:textStyle="bold" />
+
     </RelativeLayout>
 
 
