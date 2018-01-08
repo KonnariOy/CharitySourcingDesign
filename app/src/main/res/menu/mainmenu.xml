@@ -2,12 +2,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/action_back"
-        android:title="Back"></item>
+        android:title="Return"></item>
     <item
         android:id="@+id/action_change_device"
-        android:title="Change Device"></item>
+        android:title="Change device"></item>
     <item
         android:id="@+id/action_quit"
-        android:title="Quit"></item>
+        android:title="Quit app"></item>
 
 </menu>
